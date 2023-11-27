@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+header{
+    font-family: 'Bree Serif', Arial, sans-serif;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
+body{
+    background-color: #361a58;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center;  
+}
+#foto{
+    height: 200px;
+}
+section{
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.404);
+    padding: 13px;
+    max-width: 370px;
+    height: 70vh;
+    margin: auto;
+    overflow: none;
+}
+#botão{
+    width: 130px;
+    height: 30px;
+    font-size: 17px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}

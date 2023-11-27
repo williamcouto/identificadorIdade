@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="shortcut icon" href="imagens/Age.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+<section>
+    <div>
+        <p>Ano de Nascimento:
+        <input type="number" name="ano_txt" id="ano_txt" min="0"></p>
+    <p>Sexo:
+    <input type="radio" name="radiosex" id="M">
+        <label for="M">Masculino</label>
+        <input type="radio" name="radiosex" id="F">
+        <label for="F">Feminino</label>
+    </p>
+    <p>
+    <input id="botão" type="button" value="Verificar" onclick="conferir()">
+    </p>
+    </div>
+    <div id="resp">
+        <p>Preencha os dados acima e veja o resultado!</p>
+        <img id="foto">
+    </div> 
+</section>
+    <footer>
+        <p>&copy;feito por William</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
