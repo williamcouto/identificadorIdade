@@ -3,9 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 h1{
-    font-family: 'Bree Serif', Arial, sans-serif;
-    color: white;
-    font-size: 14pt;
+    font: 40px 'Bree Serif', Arial, sans-serif;
+    color: #ffff;
     text-align: center;
 }
 body{
