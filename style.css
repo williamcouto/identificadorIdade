@@ -29,7 +29,8 @@ body{
     width: 440px;
     height: 80vh;
     margin: 15px auto;
-    padding: 17px;
+    padding: 18px;
+    border-radius: 8px;
     position: relative;
 }
 
