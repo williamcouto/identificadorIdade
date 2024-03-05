@@ -9,6 +9,7 @@
 
 h1{
     font: 40px 'Bree Serif', Arial, sans-serif;
+    line-height: 1.5em;
     color: #000;
 }
 
@@ -30,7 +31,6 @@ body{
     margin: 15px auto;
     padding: 17px;
     position: relative;
-    overflow: hidden;
 }
 
 span{
