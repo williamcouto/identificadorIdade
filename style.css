@@ -50,9 +50,9 @@ input[type="number"]{
 
 #botão{
     display: block;
-    width: 100%;
+    width: 160px;
     height: 30px;
-    margin: 14px auto;
+    margin-top: 11px;
     font-size: 17px;
     font-family: 'Poppins', Arial, sans-serif;
     cursor: pointer;
