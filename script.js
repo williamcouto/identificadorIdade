@@ -37,23 +37,28 @@ function conferir(){
             //IDOSO
         }
 
+        
         if (formsex[1].checked){
             genero = 'Mulher'
         
             if(idade > 0 && idade < 10){
             img.src = 'assets/menina.png'
+            body_color.style.backgroundColor = '#F3A5B9'
             //CRIANÇA
         }
             else if(idade > 9 && idade < 25){
             img.src = 'assets/mulher-jovem.png'
+            body_color.style.backgroundColor = '#E74B72'
             //JOVEM
         }
             else if(idade < 50){
             img.src = 'assets/mulher-adulta.png'
+            body_color.style.backgroundColor = '#D71D4C'
             //ADULTA
         }
             else {
             img.src = 'assets/mulher-idosa.png'
+            body_color.style.backgroundColor = '#901433'
             //IDOSA
         }
     }
