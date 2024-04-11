@@ -29,7 +29,7 @@ body{
     width: 440px;
     height: 80vh;
     margin: 15px auto;
-    padding: 18px;
+    padding: 20px;
     border-radius: 8px;
     position: relative;
 }
@@ -54,7 +54,7 @@ input[type="number"]{
     display: block;
     width: 160px;
     height: 30px;
-    margin-top: 11px;
+    margin-top: 12px;
     font-size: 17px;
     font-family: 'Poppins', Arial, sans-serif;
     cursor: pointer;
